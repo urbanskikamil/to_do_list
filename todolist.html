@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>To Do List</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Shadows+Into+Light" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+		<h1>To Do List</h1>
+		<div class="add">
+			<input type="text" id="newActivity" placeholder="Wprowadź nowe zadanie">
+			<span onclick="addNewElement()" class="addAct">Dodaj</span>
+		</div>
+	</header>
+  	<div id="doneInfo">
+  		<h2>Wygląda na to, że wykonałeś wszystkie dzisiejsze zadania!</h2>
+  	</div>
+	<ul id="acitivitiesList">
+  		<li>Poodkurzać przedpokój</li>
+		<li>Zrobić zakupy</li>
+ 		<li class="checked">Dokończyć "To Do List"</li>
+  		<li>Pójść na siłownię</li>
+  		<li>Ugotować ryż</li>	
+  	</ul>
+
+
+	<footer>&copy Kamil Urbański</footer>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
