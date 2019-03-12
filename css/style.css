@@ -65,7 +65,6 @@ ul li {
     transition: 0.2s;
     list-style: none;
 
-    /* make the list items unselectable */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -74,7 +73,6 @@ ul li {
 	animation-fill-mode: forwards;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
     background: #f9f9f9;
 }
@@ -83,14 +81,12 @@ ul li:hover {
     background: #ddd;
 }
 
-/* When clicked on, add a background color and strike out text */
 ul li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;
 }
 
-/* Add a "checked" mark when clicked on */
 .close {
     position: absolute;
     right: 0;
