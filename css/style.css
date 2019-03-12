@@ -9,36 +9,21 @@ header{
 	border-radius: 300px 300px 0 0;
 }
 
-h1,h3 {
-	text-align: center;
-	animation-fill-mode: forwards;
-}
-
 h1 {
 	font-size: 2.5em;
-	padding: 0.5em;
-	animation-name: fade;
+	text-align: center;
+	padding-top: 0.5em;
 }
 
-h3 {
-	font-size: 1.5em;
-	position: relative;
-	top: 10vh;
-	cursor: pointer;
-}
 
 input {
     width: 50%;
     padding: 10px;
-    font-size: 16px;
+    font-size: 0.8em;
     margin: 0 0 5vh 20vw;
 }
 
-.add{
 
-
-
-}
 .addAct{
 	position: relative;
 	left: 3vw; 
@@ -109,10 +94,6 @@ ul li.checked {
 	animation-fill-mode: forwards;
 
 }
-@keyframes fade{
-	0% {opacity: 1}
-	100% {opacity: 0}
-}
 
 @keyframes backgroundFadeIn{
 	0% {background-color: #888}
@@ -125,4 +106,17 @@ footer{
 	bottom: 0.5vh;
 	right: 0.5vw;
 	font-size: 1.3em;
+}
+
+@media screen and (max-width: 736px){
+
+	h1{
+		font-size: 1.5em;
+	}
+	ul li{
+		font-size: 1.3em;
+	}
+	span.addAct{
+		font-size: 0.9em;
+	}
 }
